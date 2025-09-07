@@ -36,19 +36,24 @@ By the end, you’ll have your own site live at:
 
 ---
 
-### 4. Customize Your Resume
-- Open `index.html` in **VS Code** (or the GitHub web editor).  
-- Replace the placeholder info with **your details**:
-  - Name + title
-  - Contact info (email, GitHub, LinkedIn, phone)
-  - Education & graduation year
-  - Skills (Python, Linux, CyberPatriot, Robotics, etc.)
-  - Projects, clubs, and awards
-- Optional: Add your profile picture (replace the placeholder image).  
+### 4. Create a Branch and Customize Your Resume
+Instead of editing `main` directly, you’ll practice **branching + pull requests**.
 
-💡 Pro Tip: Make small commits often as you edit.
+1. In your repo, create a **new branch** (name it `resume-edit` or something similar).  
+2. Switch to that branch.  
+3. Open `index.html` and replace the placeholder info with **your details**:
+   - Name + title  
+   - Contact info (email, GitHub, LinkedIn, phone)  
+   - Education & graduation year  
+   - Skills (Python, Linux, CyberPatriot, Robotics, etc.)  
+   - Projects, clubs, and awards  
+   - (Optional) Add your profile picture  
+4. Commit your changes on this branch.  
+5. Push your branch to GitHub.  
+6. Open a **Pull Request (PR)** from your branch → `main`.  
+7. Merge your PR once you’ve reviewed your changes.  
 
----
+💡 Pro Tip: Small commits are better — commit after each section you edit.
 
 ### 5. Publish With GitHub Pages
 1. Go to **Settings → Pages** in your repo.  
