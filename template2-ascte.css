@@ -1,0 +1,231 @@
+.profile-photo {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #6598E9;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,40,104,0.10);
+}
+body {
+  background: linear-gradient(135deg, #002868 0%, #6598E9 100%);
+  font-family: 'Segoe UI', 'Roboto', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 36px 0 0 0;
+}
+.logo {
+  width: 90px;
+  height: 90px;
+  margin-bottom: 18px;
+  border-radius: 20px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,40,104,0.18);
+  object-fit: contain;
+  border: 3px solid #BF0A30;
+}
+.identity {
+  background: rgba(191,10,48,0.10);
+  border-radius: 18px;
+  box-shadow: 0 2px 12px rgba(0,40,104,0.10);
+  padding: 18px 32px 12px 32px;
+  margin-bottom: 18px;
+  text-align: center;
+}
+.header {
+  display: none;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,40,104,0.18);
+  object-fit: contain;
+  border: 2px solid #BF0A30;
+}
+.school-logo-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.profile-photo {
+  display: block;
+  margin: 0 auto 18px auto;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #6598E9;
+  object-fit: cover;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,40,104,0.10);
+}
+.name {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #BF0A30;
+  margin: 0 auto 18px auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.contact-info {
+  display: flex;
+  justify-content: center;
+  gap: 32px;
+  margin-bottom: 32px;
+  flex-wrap: wrap;
+}
+.contact-info span {
+  color: #BF0A30;
+  font-weight: 500;
+}
+section {
+  margin-bottom: 32px;
+}
+h3 {
+  color: #BF0A30;
+  margin-bottom: 12px;
+  font-size: 1.15rem;
+  letter-spacing: 1px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tags span {
+  background: rgba(101,152,233,0.12);
+  color: #002868;
+  border: 1px solid #6598E9;
+  border-radius: 16px;
+  padding: 6px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.experience ul, .awards ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.experience li, .awards li {
+  margin-bottom: 10px;
+  background: rgba(165,165,164,0.10);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #002868;
+}
+@media (max-width: 700px) {
+  .resume-glass {
+    padding: 16px 4vw;
+  }
+  .logo {
+    margin: 0 0 16px 0;
+  }
+  .contact-info {
+    gap: 12px;
+  }
+}
+.resume-glass {
+  background: rgba(255,255,255,0.18);
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1.5px solid rgba(255,255,255,0.28);
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 40px 32px;
+}
+.name {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #BF0A30;
+  margin-bottom: 6px;
+  letter-spacing: 1px;
+}
+.title {
+  font-size: 1.15rem;
+  color: #002868;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.header {
+  display: none;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 24px rgba(0,40,104,0.18);
+  object-fit: contain;
+  border: 2px solid #BF0A30;
+}
+.school-logo-bottom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+  margin-bottom: 8px;
+}
+.name {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #BF0A30;
+  margin: 0 auto 18px auto;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.tag span {
+  color: #002868;
+  border: 1px solid #6598E9;
+  border-radius: 16px;
+  padding: 6px 16px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  margin-bottom: 6px;
+}
+.experience ul, .awards ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.experience li, .awards li {
+  margin-bottom: 10px;
+  background: rgba(165,165,164,0.10);
+  padding: 10px 16px;
+  border-radius: 8px;
+  border-left: 3px solid #002868;
+}
+@media (max-width: 700px) {
+  .resume-glass {
+    padding: 16px 4vw;
+  }
+  .header {
+    flex-direction: column;
+    padding: 24px 0 12px 0;
+  }
+  .logo {
+    margin: 0 0 16px 0;
+  }
+  .contact-info {
+    gap: 12px;
+  }
+}
